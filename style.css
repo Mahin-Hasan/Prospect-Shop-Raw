@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+
+.fixed-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.text-white{
+    color: #ffffff;
+}
+/* Top Navbar start */
+.header-background {
+    background: url(images/header_bg.png);
+    min-height: 123px;
+    /* background-color: #111111;
+    height: 108px;
+    position: relative; */
+}
+.clear-float {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header-title {
+    margin: 24px 0 24px 0;
+    float: left;
+    width: 50%;
+}
+.header-title img{
+    float: left;
+    width: 65px;
+}
+.header-title div{
+    float: left;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 14px 0 14px 13px;
+
+}
+.header-navigations{
+    float: left;
+    width: 50%;
+}
+.header-contact{
+    margin: 19px 0px 12px 343px;
+}
+.header-contact a{
+    font-size: 30px;
+    margin: 20px 19px 12px 0;
+}
+.header-contact span{
+    font-weight: 600;
+}
+
+.header-options ul{
+    margin: 0px 0px 17px 0;
+    padding-left: 30px;
+
+}
+.link-style li {
+    display: inline-block;
+}
+.link-style a {
+    display: inline-block;
+    padding: 9px 19px;
+    text-transform: capitalize;
+    font-size: 19px;
+}
