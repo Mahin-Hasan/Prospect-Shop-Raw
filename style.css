@@ -12,29 +12,35 @@ body {
     width: 1200px;
     margin: 0 auto;
 }
-ul{
+
+ul {
     margin: 0;
     padding: 0;
 }
-li{
+
+li {
     list-style-type: none;
-    
+
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
-.text-white{
+
+.text-white {
     color: #ffffff;
 }
+
 /* Top Navbar start */
 .header-background {
     background: url(images/header_bg.png);
-    min-height: 123px;
+    height: 123px;
     /* background-color: #111111;
     height: 108px;
     position: relative; */
 }
+
 .clear-float {
     content: "";
     clear: both;
@@ -46,11 +52,12 @@ a {
     float: left;
     width: 50%;
 }
-.header-title img{
+
+.header-title img {
     float: left;
     width: 65px;
 }
-.header-title div{
+.header-title div {
     float: left;
     font-size: 35px;
     font-weight: 600;
@@ -58,32 +65,77 @@ a {
     margin: 14px 0 14px 13px;
 
 }
-.header-navigations{
+
+.header-navigations {
     float: left;
     width: 50%;
 }
-.header-contact{
+
+.header-contact {
     margin: 19px 0px 12px 343px;
 }
-.header-contact a{
+
+.header-contact a {
     font-size: 30px;
     margin: 20px 19px 12px 0;
 }
-.header-contact span{
+
+.header-contact span {
     font-weight: 600;
 }
 
-.header-options ul{
+.header-options ul {
     margin: 0px 0px 17px 0;
     padding-left: 30px;
 
 }
+
 .link-style li {
     display: inline-block;
 }
+
 .link-style a {
     display: inline-block;
     padding: 9px 19px;
     text-transform: capitalize;
     font-size: 19px;
 }
+
+/* media query */
+@media only screen and (max-width: 576px) {
+
+    /* Header section */
+    .header-navigations {
+        display: none;
+    }
+
+    .fixed-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header-title {
+        margin: 24px 0 24px 0px;
+        padding-left: 22px;
+        float: left;
+        width: 100%;
+    }
+    .toggler-icon{
+        float: right !important;
+        margin-right: 22px;
+    }
+
+    .header-title div {
+        float: left;
+        font-size: 32px;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin: 14px 0 14px 13px;
+    }
+    .header-title img {
+        width: 60px;
+    }
+}
+
+/*  */
+@media only screen and (min-width: 576px) {}
