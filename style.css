@@ -8,6 +8,10 @@ body {
 
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .fixed-container {
     width: 1200px;
     margin: 0 auto;
@@ -30,6 +34,10 @@ a {
 
 .text-white {
     color: #ffffff;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* Top Navbar start */
@@ -57,6 +65,7 @@ a {
     float: left;
     width: 65px;
 }
+
 .header-title div {
     float: left;
     font-size: 35px;
@@ -101,6 +110,127 @@ a {
     font-size: 19px;
 }
 
+/* Banner Container */
+
+.banner-background {
+    background: url(images/body_bg.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 882px;
+}
+
+.form-background-image {
+    background: url(images/container_bg.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* width: 470px; */
+    height: 893px;
+}
+
+.banner-heading-left {
+    float: left;
+    width: 60%;
+    position: relative;
+}
+
+.top-description-left {
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 0 65px;
+    margin: 120px 0 0 0;
+    letter-spacing: 1px;
+
+}
+
+.bottom-description-left {
+    position: absolute;
+    bottom: -662px;
+    /* left: 54px; */
+    text-transform: capitalize;
+    padding-left: 65px;
+    font-size: 18px;
+}
+
+/* right */
+.banner-form-right {
+    float: left;
+    width: 40%;
+}
+
+.form-width {
+    padding: 18px 63px 6px 63px;
+}
+
+.form-width img {
+    width: 65px;
+}
+
+.form-title {
+    margin: 7px 0px;
+}
+
+.form-title img {
+    float: left;
+}
+
+.form-title div {
+    float: left;
+
+}
+
+.form-description {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #e3e3e3;
+    margin-bottom: 14px;
+}
+
+.form-width label {
+    text-transform: capitalize;
+
+}
+
+.set-inner-margin {
+    margin: 18px 0 18px 15px;
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+
+.input-field {
+    width: 100%;
+    height: 46px;
+    border: none;
+    margin: 4px 0 17px 0;
+}
+
+.download-guide {
+    position: relative;
+    background-color: #333333;
+    padding: 18px;
+    margin: 17px 0 17px 0px;
+
+}
+
+.download-guide span {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.download-guide img {
+    position: absolute;
+    right: 14px;
+    top: 19px;
+}
+
+.bottom-description {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #e3e3e3;
+}
+
 /* media query */
 @media only screen and (max-width: 576px) {
 
@@ -120,7 +250,8 @@ a {
         float: left;
         width: 100%;
     }
-    .toggler-icon{
+
+    .toggler-icon {
         float: right !important;
         margin-right: 22px;
     }
@@ -132,10 +263,15 @@ a {
         text-transform: capitalize;
         margin: 14px 0 14px 13px;
     }
+
     .header-title img {
         width: 60px;
     }
 }
 
 /*  */
-@media only screen and (min-width: 576px) {}
+@media only screen and (min-width: 576px) {
+    .toggler-icon {
+        display: none;
+    }
+}
