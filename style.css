@@ -119,6 +119,13 @@ a {
     min-height: 882px;
 }
 
+.banner-background-small {
+    background: url(images/body_bg.jpg)no-repeat;
+    min-height: 687px;
+    background-size: 1100px;
+    background-position-x: -94px;
+}
+
 .form-background-image {
     background: url(images/container_bg.png)no-repeat;
     background-size: cover;
@@ -145,7 +152,7 @@ a {
 
 .bottom-description-left {
     position: absolute;
-    bottom: -662px;
+    bottom: 0px;
     /* left: 54px; */
     text-transform: capitalize;
     padding-left: 65px;
@@ -176,7 +183,6 @@ a {
 
 .form-title div {
     float: left;
-
 }
 
 .form-description {
@@ -232,6 +238,7 @@ a {
 }
 
 /* media query */
+/* smaller than */
 @media only screen and (max-width: 576px) {
 
     /* Header section */
@@ -267,11 +274,45 @@ a {
     .header-title img {
         width: 60px;
     }
+
+    /* Banner section */
+
+    .top-description-left {
+        font-size: 33px;
+        padding: 0 45px;
+        margin: 63px 0 0 0;
+
+    }
+
+    .banner-background {
+        background-image: none;
+    }
+
+
+    .banner-heading-left {
+        width: 100%;
+    }
+
+    .banner-form-right {
+        width: 100%;
+    }
+
 }
 
-/*  */
+/* greater than */
 @media only screen and (min-width: 576px) {
     .toggler-icon {
         display: none;
+    }
+
+    .banner-background-small {
+        background-image: none;
+    }
+}
+
+/* for right form */
+@media only screen and (max-width: 425px) {
+    .form-width {
+        padding: 18px 40px 6px 40px;
     }
 }
