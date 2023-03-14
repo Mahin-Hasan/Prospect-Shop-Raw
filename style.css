@@ -23,8 +23,7 @@ ul {
 }
 
 li {
-    list-style-type: none;
-
+    list-style: none;
 }
 
 a {
@@ -41,7 +40,7 @@ a {
 }
 
 /* Top Navbar start */
-.header-background {
+.header-section {
     background: url(images/header_bg.png);
     height: 123px;
     /* background-color: #111111;
@@ -55,48 +54,67 @@ a {
     display: table;
 }
 
+
+
 .header-title {
-    margin: 24px 0 24px 0;
+    margin: 25px 0 25px 0;
     float: left;
     width: 50%;
 }
 
 .header-title img {
-    float: left;
     width: 65px;
 }
 
-.header-title div {
+
+.header-title ul {
+    display: inline-block;
+
+}
+
+.icon{
     float: left;
+}
+.header-subject{
+    float: left;
+
+}
+.header-title a {
+    display: inline-block;
     font-size: 35px;
     font-weight: 600;
     text-transform: capitalize;
     margin: 14px 0 14px 13px;
-
+}
+.toggler-icon{
+    float: right;
+    margin-right: 22px;
 }
 
 .header-navigations {
+    margin: 20px 0 16px 0;
     float: left;
     width: 50%;
+
 }
 
 .header-contact {
-    margin: 19px 0px 12px 343px;
+    /* margin: 19px 0px 12px 343px; */
+    margin: 0 19px 12px 343px;
+
 }
 
 .header-contact a {
+    display: inline-block;
     font-size: 30px;
-    margin: 20px 19px 12px 0;
 }
 
 .header-contact span {
     font-weight: 600;
 }
 
-.header-options ul {
-    margin: 0px 0px 17px 0;
+.header-options {
     padding-left: 30px;
-
 }
 
 .link-style li {
@@ -105,14 +123,15 @@ a {
 
 .link-style a {
     display: inline-block;
-    padding: 9px 19px;
+    padding: 6px 19px;
     text-transform: capitalize;
     font-size: 19px;
+    line-height: 28px;
 }
 
 /* Banner Container */
 
-.banner-background {
+.banner-section {
     background: url(images/body_bg.jpg)no-repeat;
     background-size: cover;
     background-position: center;
@@ -121,7 +140,8 @@ a {
 
 .banner-background-small {
     background: url(images/body_bg.jpg)no-repeat;
-    min-height: 687px;
+    min-height: 882px;
+
     background-size: 1100px;
     background-position-x: -94px;
 }
@@ -248,22 +268,18 @@ a {
 
     .fixed-container {
         width: 100%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
     }
 
     .header-title {
-        margin: 24px 0 24px 0px;
+        margin: 24px 0 0 0;
         padding-left: 22px;
         float: left;
         width: 100%;
     }
 
-    .toggler-icon {
-        float: right !important;
-        margin-right: 22px;
-    }
-
-    .header-title div {
+    
+    .header-title a {
         float: left;
         font-size: 32px;
         font-weight: 500;
@@ -279,19 +295,29 @@ a {
 
     .top-description-left {
         font-size: 33px;
-        padding: 0 45px;
+        padding: 0px 35px;
         margin: 63px 0 0 0;
-
     }
 
-    .banner-background {
+    .bottom-description-left {
+        font-size: 16px;
+        letter-spacing: -1px;
+        padding: 0 0 20px 28px;
+    }
+
+    .banner-section {
         background-image: none;
+    }
+
+    .banner-background-small {
+        min-height: 687px;
     }
 
 
     .banner-heading-left {
         width: 100%;
     }
+
 
     .banner-form-right {
         width: 100%;
