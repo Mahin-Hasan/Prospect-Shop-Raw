@@ -261,28 +261,38 @@ a {
     padding: 45px 0;
 }
 
-.about-us-heading {
+.about-us-heading,
+.client-heading {
     float: left;
 }
-.about-us-heading a{
+
+.about-us-heading a,
+.client-heading a {
     font-size: 62px;
     text-transform: capitalize;
 }
 
-.about-us-image {
+.about-us-image,
+.client-image {
     float: right;
     margin: 12px 0 7px 0;
 
 }
-.about-us-image img{
+
+.about-us-image img,
+.client-image img {
     float: left;
     width: 48px;
 
 }
-.about-us-image ul{
+
+.about-us-image ul,
+.client-image ul {
     float: left;
-} 
-.about-us-image a {
+}
+
+.about-us-image a,
+.client-image a {
     display: inline-block;
     font-size: 34px;
     font-weight: 600;
@@ -291,24 +301,27 @@ a {
 }
 
 /* about card description */
-.card{
+.card {
     float: left;
     width: 33.33%;
     padding: 34px 0px;
 
 }
-.card-icon{
+
+.card-icon {
     height: 80px;
     margin-bottom: 8px;
 
     position: relative;
 }
-.card img{
+
+.card img {
     padding: 0 132px;
     position: absolute;
     bottom: 0;
 }
-.card-description-bold{
+
+.card-description-bold {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 600;
@@ -317,19 +330,52 @@ a {
     height: 84px;
 
 }
-.card-description-small{
+
+.card-description-small {
     font-size: 21px;
     padding-right: 69px;
     height: 111px;
     text-transform: capitalize;
 }
 
+/* client section */
+.client-section {
+    padding: 45px 0;
+}
 
+.client-card {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    font-size: 21px;
 
+}
 
+.client-profile {
+    margin: 51px 0 25px 0;
 
+}
 
+.client-credential {
+    margin-bottom: 23px;
+}
 
+.client-name-bold {
+    color: #60a32f;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.client-name {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.client-description{
+    padding: 0 46px;
+    height: 223px;
+
+}
 
 
 /* media query */
