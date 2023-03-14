@@ -376,7 +376,48 @@ a {
     height: 223px;
 
 }
+/* Services and download guide section */
+.service{
+    float: left;
+    width: 60%;
+    padding: 0 18px;
+    margin: 92px 0 61px 0;
 
+}
+.service li{
+    display: inline-block;
+    margin-right: 58px;
+}
+.service a{
+    display: inline-block;
+
+}
+.reset-margin{
+    margin-right: 0 !important;
+}
+.download-guide-bottom{
+    float: right;
+    width: 40%;
+    background: url(images/container_bg_alt.png)no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.download-button{
+    /* padding: 0px 79px; */
+    margin: 0px 94px;
+
+}
+.download-guide-bottom img{
+    position: absolute;
+    top: 143px;
+    right: 118px;
+}
+.download-guide-bottom a{
+    display: inline-block;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: 133px 0 34px 0;
+}
 
 /* media query */
 /* smaller than */
