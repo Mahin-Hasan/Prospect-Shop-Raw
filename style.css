@@ -418,7 +418,15 @@ a {
     text-transform: uppercase;
     margin: 133px 0 34px 0;
 }
-
+/* footer */
+.footer-section{
+    background: url(images/footer.png);
+    height: 107px;
+}
+.footer-description{
+    margin: 44px 0;
+    display: inline-block;
+}
 /* media query */
 /* smaller than */
 @media only screen and (max-width: 576px) {
