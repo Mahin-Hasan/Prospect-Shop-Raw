@@ -70,6 +70,10 @@ a {
 }
 .toggler-icon {
     float: right;
+    /* margin-right: 18px; */
+}
+.hidden-icon {
+    float: right;
     margin-right: 18px;
 }
 .header-navigations {
@@ -325,12 +329,12 @@ a {
 .service {
     float: left;
     width: 60%;
-    padding: 0 18px;
+    /* padding: 0 18px; */
     margin: 86px 0 51px 0;
 }
 .service li {
     display: inline-block;
-    margin-right: 58px;
+    margin-right: 65px;
 }
 .service a {
     display: inline-block;
@@ -425,7 +429,10 @@ a {
 }
 /* large device */
 @media only screen and (min-width: 576px) {
-    .toggler-icon {
+    /* .toggler-icon {
+        display: none;
+    } */
+    .hidden-icon {
         display: none;
     }
     .banner-background-small {
