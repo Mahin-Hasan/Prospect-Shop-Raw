@@ -34,6 +34,10 @@ a {
     color: #ffffff;
 }
 
+.text-grey {
+    color: #eeeeee;
+}
+
 .text-center {
     text-align: center;
 }
@@ -72,9 +76,8 @@ a {
     float: left;
 }
 
-.header-subject {
+.header-info {
     float: left;
-
 }
 
 .header-title a {
@@ -83,6 +86,7 @@ a {
     font-weight: 600;
     text-transform: capitalize;
     margin: 14px 0 14px 13px;
+    color: #424242;
 }
 
 .toggler-icon {
@@ -106,10 +110,14 @@ a {
 .header-contact a {
     display: inline-block;
     font-size: 30px;
+    color: #424242;
+
 }
 
 .header-contact span {
     font-weight: 600;
+    color: #424242;
+
 }
 
 .header-options {
@@ -206,7 +214,6 @@ a {
 .form-description {
     font-size: 18px;
     text-transform: capitalize;
-    color: #e3e3e3;
     margin-bottom: 14px;
 }
 
@@ -252,13 +259,18 @@ a {
 .bottom-description {
     font-size: 18px;
     text-transform: capitalize;
-    color: #e3e3e3;
 }
 
 /* About Us */
+.top-spacing{
+    padding-top: 45px;
+}
+.bottom-spacing{
+    padding-bottom: 45px;
+}
 .about-us-section {
     background-color: #60a32f;
-    padding: 45px 0;
+    margin: 45px 0;
 }
 
 .about-us-heading,
@@ -276,14 +288,12 @@ a {
 .client-image {
     float: right;
     margin: 12px 0 7px 0;
-
 }
 
 .about-us-image img,
 .client-image img {
     float: left;
     width: 48px;
-
 }
 
 .about-us-image ul,
@@ -316,7 +326,7 @@ a {
 }
 
 .card img {
-    padding: 0 132px;
+    padding-left: 132px;
     position: absolute;
     bottom: 0;
 }
@@ -340,9 +350,14 @@ a {
 
 /* client section */
 .client-section {
-    padding: 45px 0;
+    margin: 0 0 45px 0;
 }
-
+.client-heading{
+    color: #60a32f;
+}
+.client-image a{
+    color: #424242;
+}
 .client-card {
     float: left;
     width: 33.33%;
@@ -369,64 +384,87 @@ a {
 .client-name {
     font-weight: 600;
     text-transform: capitalize;
+    color: #424242;
+
 }
 
-.client-description{
+.client-workplace {
+    text-transform: capitalize;
+    color: #696969;
+}
+
+.client-description {
     padding: 0 46px;
     height: 223px;
-
+    color: #696969;
 }
+
 /* Services and download guide section */
-.service{
+.service {
     float: left;
     width: 60%;
     padding: 0 18px;
-    margin: 92px 0 61px 0;
-
+    margin: 86px 0 51px 0;
 }
-.service li{
+
+.service li {
     display: inline-block;
     margin-right: 58px;
 }
-.service a{
+
+.service a {
     display: inline-block;
 
 }
-.reset-margin{
+
+.reset-margin {
     margin-right: 0 !important;
 }
-.download-guide-bottom{
+
+.download-guide-bottom {
     float: right;
     width: 40%;
     background: url(images/container_bg_alt.png)no-repeat;
     background-size: cover;
     position: relative;
 }
-.download-button{
+
+.download-button {
     /* padding: 0px 79px; */
     margin: 0px 94px;
 
 }
-.download-guide-bottom img{
+
+.download-guide-bottom img {
     position: absolute;
     top: 143px;
     right: 118px;
 }
-.download-guide-bottom a{
+
+.download-guide-bottom a {
     display: inline-block;
     font-size: 28px;
     text-transform: uppercase;
     margin: 133px 0 34px 0;
 }
+
 /* footer */
-.footer-section{
+.footer-section {
     background: url(images/footer.png);
     height: 107px;
 }
-.footer-description{
+
+.footer-description {
     margin: 44px 0;
     display: inline-block;
+    text-transform: capitalize;
 }
+
+.footer-description ul,
+.footer-description a {
+    display: inline-block;
+}
+
 /* media query */
 /* smaller than */
 @media only screen and (max-width: 576px) {
