@@ -65,7 +65,7 @@ a {
     line-height: 52px;
     font-weight: 600;
     text-transform: capitalize;
-    margin: 12px 0 12px 13px;
+    margin: 10px 0 10px 12px;
     color: #424242;
 }
 .toggler-icon {
@@ -109,9 +109,8 @@ a {
 }
 /* Banner Container */
 .banner-section {
-    background: url(images/body_bg.jpg)no-repeat;
+    background: url(images/body_bg.jpg)no-repeat center;
     background-size: cover;
-    background-position: center;
     min-height: 882px;
 }
 .banner-background-small {
@@ -121,9 +120,9 @@ a {
     background-position-x: -94px;
 }
 .form-background-image {
-    background: url(images/container_bg.png)no-repeat;
-    background-position: center;
-    height: 893px;
+    background: url(images/container_bg.png)no-repeat center;
+    background-size: cover;
+    min-height: 893px;
 }
 .banner-heading-left {
     float: left;
@@ -378,6 +377,7 @@ a {
 .footer-description a {
     display: inline-block;
 }
+/* responsive for 422px */
 /*media query small device*/
 @media only screen and (max-width: 576px) {
     /* Header section */
@@ -388,8 +388,8 @@ a {
         width: 100%;
     }
     .header-title {
-        margin: 24px 0 0 0;
-        padding-left: 22px;
+        margin: 28px 0 27px 0;
+        padding-left: 13px;
         float: left;
         width: 100%;
     }
@@ -398,14 +398,15 @@ a {
         font-size: 32px;
         font-weight: 500;
         text-transform: capitalize;
-        margin: 14px 0 14px 13px;
+        margin: 6px 0 6px 4px;
     }
     .header-title img {
-        width: 60px;
+        width: 56px;
     }
     /* Banner section */
     .top-description-left {
-        font-size: 33px;
+        font-size: 29px;
+        line-height: 36px;
         padding: 0px 35px;
         margin: 63px 0 0 0;
     }
@@ -413,18 +414,35 @@ a {
         font-size: 16px;
         letter-spacing: -1px;
         padding: 0 0 20px 28px;
+        text-align: center;
     }
     .banner-section {
         background-image: none;
     }
     .banner-background-small {
-        min-height: 687px;
+        min-height: 673px;
     }
     .banner-heading-left {
         width: 100%;
     }
     .banner-form-right {
         width: 100%;
+    }
+    /* About us section */
+    .about-us-image ul {
+        display: none;
+    }
+    .card {
+        float: left;
+        width: 100%;
+        padding: 34px 50px;
+    }
+    .card-description-small{
+        padding-right: 0px;
+    }
+    .top-spacing{
+        padding-left: 18px;
+        padding-right: 18px;
     }
 }
 /* large device */
