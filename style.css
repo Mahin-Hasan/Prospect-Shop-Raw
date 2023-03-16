@@ -429,11 +429,10 @@ a {
         width: 100%;
     }
     /* About us section */
-    .about-us-image ul {
+    .about-us-image ul , .client-image ul{
         display: none;
     }
     .card {
-        float: left;
         width: 100%;
         padding: 34px 50px;
     }
@@ -443,6 +442,13 @@ a {
     .top-spacing{
         padding-left: 18px;
         padding-right: 18px;
+    }
+    /* Client section */
+    .padding-small{
+        padding: 0 18px;
+    }
+    .client-card{
+        width: 100%;
     }
 }
 /* large device */
