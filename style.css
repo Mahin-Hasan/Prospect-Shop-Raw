@@ -70,7 +70,6 @@ a {
 }
 .toggler-icon {
     float: right;
-    /* margin-right: 18px; */
 }
 .hidden-icon {
     float: right;
@@ -122,9 +121,7 @@ a {
 .form-background-image {
     background: url(images/container_bg.png)no-repeat center;
     background-size: cover;
-    /* min-height: 893px;*/
     min-height: 910px;
-
 }
 .banner-heading-left {
     float: left;
@@ -331,7 +328,6 @@ a {
 .service {
     float: left;
     width: 60%;
-    /* padding: 0 18px; */
     margin: 86px 0 51px 0;
 }
 .service li {
@@ -382,8 +378,9 @@ a {
 .footer-description a {
     display: inline-block;
 }
+
 /* responsive for 422px */
-/*media query small device*/
+/*media query for small device*/
 @media only screen and (max-width: 576px) {
     /* Header section */
     .header-navigations {
@@ -477,6 +474,7 @@ a {
     .download-guide-bottom {
         width: 100%;
     }
+    /* footer section */
     .footer-description{
         padding: 33px 48px 0 48px;
     }
