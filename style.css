@@ -61,8 +61,8 @@ a {
 }
 .header-title a {
     display: inline-block;
-    font-size: 35px;
-    line-height: 52px;
+    font-size: 30px;
+    line-height: 46px;
     font-weight: 600;
     text-transform: capitalize;
     margin: 10px 0 10px 12px;
@@ -122,7 +122,9 @@ a {
 .form-background-image {
     background: url(images/container_bg.png)no-repeat center;
     background-size: cover;
-    min-height: 893px;
+    /* min-height: 893px;*/
+    min-height: 910px;
+
 }
 .banner-heading-left {
     float: left;
@@ -206,6 +208,7 @@ a {
 }
 .bottom-description {
     font-size: 18px;
+    line-height: 27px;
     text-transform: capitalize;
 }
 /* About Us */
@@ -217,7 +220,7 @@ a {
 }
 .about-us-section {
     background-color: #60a32f;
-    margin: 45px 0;
+    margin-bottom: 45px;
 }
 .about-us-heading,
 .client-heading {
@@ -346,6 +349,7 @@ a {
     width: 40%;
     background: url(images/container_bg_alt.png)no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
 }
 .download-button {
@@ -369,9 +373,10 @@ a {
     height: 107px;
 }
 .footer-description {
-    margin: 44px 0;
     display: inline-block;
     text-transform: capitalize;
+    text-align: center;
+    padding-top: 53px;
 }
 .footer-description ul,
 .footer-description a {
@@ -396,12 +401,14 @@ a {
     .header-title a {
         float: left;
         font-size: 32px;
+        line-height: 48px;
+        letter-spacing: -1px;
         font-weight: 500;
         text-transform: capitalize;
         margin: 6px 0 6px 4px;
     }
     .header-title img {
-        width: 56px;
+        width: 55px;
     }
     /* Banner section */
     .top-description-left {
@@ -412,6 +419,7 @@ a {
     }
     .bottom-description-left {
         font-size: 16px;
+        line-height: 24px;
         letter-spacing: -1px;
         padding: 0 0 20px 28px;
         text-align: center;
@@ -432,9 +440,14 @@ a {
     .about-us-image ul , .client-image ul{
         display: none;
     }
+    .about-us-heading a,
+    .client-heading a {
+        font-size: 42px;
+        line-height: 63px;
+    }
     .card {
         width: 100%;
-        padding: 34px 50px;
+        padding: 0 34px 50px 34px;
     }
     .card-description-small{
         padding-right: 0px;
@@ -450,12 +463,26 @@ a {
     .client-card{
         width: 100%;
     }
+    /* service section */
+    .service{
+        width: 100%;
+        text-align: center;
+    }
+    .service li{
+        margin-right: 0px;
+    }
+    .service img{
+        width: 100px;
+    }
+    .download-guide-bottom {
+        width: 100%;
+    }
+    .footer-description{
+        padding: 33px 48px 0 48px;
+    }
 }
 /* large device */
 @media only screen and (min-width: 576px) {
-    /* .toggler-icon {
-        display: none;
-    } */
     .hidden-icon {
         display: none;
     }
